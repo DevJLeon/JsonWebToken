@@ -1,0 +1,12 @@
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Dominio\bin\Debug\net7.0\Dominio.deps.json
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Dominio\bin\Debug\net7.0\Dominio.dll
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Dominio\bin\Debug\net7.0\Dominio.pdb
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Dominio\obj\Debug\net7.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfo.cs
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Dominio\obj\Debug\net7.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Dominio\obj\Debug\net7.0\Dominio.dll
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Dominio\obj\Debug\net7.0\refint\Dominio.dll
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Dominio\obj\Debug\net7.0\Dominio.pdb
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Dominio\obj\Debug\net7.0\ref\Dominio.dll

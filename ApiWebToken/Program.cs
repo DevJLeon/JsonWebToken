@@ -12,7 +12,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<ApiWebTokenContext>(options=>
 {
-    string connectionString = builder.Configuration.GetConnectionString("ConecMySql");
+    string connectionString = builder.Configuration.GetConnectionString("ConexMySql");
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
 });
 

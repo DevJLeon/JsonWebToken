@@ -25,9 +25,28 @@ namespace Persistencia.Data.Configuration
 
             builder.Property(p => p.Email)
             .IsRequired()
-            .HasMaxLength(50);
+            .HasMaxLength(100);
 
-            
+            builder
+            .HasMany(p=> p.Rols)
+            .WithMany(r=> r.Users)
+            .UsingEntity<UserRol>(
+                j=> j
+                .HasOne(pt => pt.Rol)
+                .WithMany(t=> t.UserRols)
+                .HasForeignKey(ut => ut.RolIdFk),
+
+                j=>j
+                .HasOne(et => et.Usuario)
+                .WithMany(et => et.UserRols)
+                .HasForeignKey(el => el.UsuarioIdFk),
+
+                j => 
+                {
+                    j.ToTable("userRol");
+                    j.HasKey(t => new { t.UsuarioIdFk, t.RolIdFk });
+                }
+            );
         }
     }
 }

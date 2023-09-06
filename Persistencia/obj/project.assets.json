@@ -5239,8 +5239,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Dominio\\Dominio.csproj": {
-              "projectPath": "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Dominio\\Dominio.csproj"
+            "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Dominio\\Dominio.csproj"
             }
           }
         }

@@ -1,0 +1,15 @@
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Persistencia\bin\Debug\net7.0\Persistencia.deps.json
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Persistencia\bin\Debug\net7.0\Persistencia.dll
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Persistencia\bin\Debug\net7.0\Persistencia.pdb
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Persistencia\bin\Debug\net7.0\Dominio.dll
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Persistencia\bin\Debug\net7.0\Dominio.pdb
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Persistencia\obj\Debug\net7.0\Persistencia.csproj.AssemblyReference.cache
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Persistencia\obj\Debug\net7.0\Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Persistencia\obj\Debug\net7.0\Persistencia.AssemblyInfoInputs.cache
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Persistencia\obj\Debug\net7.0\Persistencia.AssemblyInfo.cs
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Persistencia\obj\Debug\net7.0\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Persistencia\obj\Debug\net7.0\Persistencia.csproj.CopyComplete
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Persistencia\obj\Debug\net7.0\Persistencia.dll
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Persistencia\obj\Debug\net7.0\refint\Persistencia.dll
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Persistencia\obj\Debug\net7.0\Persistencia.pdb
+C:\Users\T01-037\Documents\Joshua\JsonWebToken\Persistencia\obj\Debug\net7.0\ref\Persistencia.dll
