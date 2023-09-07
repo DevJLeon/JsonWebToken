@@ -6097,11 +6097,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\ApiWebToken\\ApiWebToken.csproj",
+      "projectUniqueName": "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\ApiWebToken\\ApiWebToken.csproj",
       "projectName": "ApiWebToken",
-      "projectPath": "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\ApiWebToken\\ApiWebToken.csproj",
+      "projectPath": "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\ApiWebToken\\ApiWebToken.csproj",
       "packagesPath": "C:\\Users\\T01-037\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\ApiWebToken\\obj\\",
+      "outputPath": "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\ApiWebToken\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\T01-037\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -6116,8 +6116,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Aplicacion\\Aplicacion.csproj": {
-              "projectPath": "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Aplicacion\\Aplicacion.csproj"
+            "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Aplicacion\\Aplicacion.csproj": {
+              "projectPath": "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Aplicacion\\Aplicacion.csproj"
             },
             "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Seguridad\\Seguridad.csproj": {
               "projectPath": "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Seguridad\\Seguridad.csproj"

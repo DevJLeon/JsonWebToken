@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Aplicacion\\Aplicacion.csproj": {}
+    "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Aplicacion\\Aplicacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Aplicacion\\Aplicacion.csproj": {
+    "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Aplicacion\\Aplicacion.csproj",
+        "projectPath": "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Aplicacion\\Aplicacion.csproj",
         "packagesPath": "C:\\Users\\T01-037\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Aplicacion\\obj\\",
+        "outputPath": "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\T01-037\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Dominio\\Dominio.csproj"
+              "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Dominio\\Dominio.csproj": {
+                "projectPath": "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Dominio\\Dominio.csproj"
               },
               "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Persistencia\\Persistencia.csproj": {
                 "projectPath": "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Persistencia\\Persistencia.csproj"
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Dominio\\Dominio.csproj": {
+    "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Dominio\\Dominio.csproj",
+        "projectPath": "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\T01-037\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Dominio\\obj\\",
+        "outputPath": "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\T01-037\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -149,8 +149,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Dominio\\Dominio.csproj"
+              "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Dominio\\Dominio.csproj": {
+                "projectPath": "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Dominio\\Dominio.csproj"
               }
             }
           }
