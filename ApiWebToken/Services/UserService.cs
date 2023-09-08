@@ -34,7 +34,7 @@ public class UserService : IUserService
         };
         usuario.Password=_passwordHasher.HashPassword(usuario,registerDto.Password);
         var usuarioExiste=_unitOfWork.Users
-                                        .Find(u=>u.UserName.ToLower()==registerDto.Username.ToLower())
+                                        .Find(u=>u.UserName.ToLower() == registerDto.Username.ToLower())
                                         .FirstOrDefault();
         if(usuarioExiste==null)
         {

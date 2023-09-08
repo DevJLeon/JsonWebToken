@@ -17,44 +17,43 @@ public static class ApplicationServiceExtension
     services.AddCors(options =>
     {
         options.AddPolicy("CorsPolicy", builder =>
-            builder.AllowAnyOrigin()
-            .AllowAnyMethod()
-            .AllowAnyHeader());
+        builder.AllowAnyOrigin()
+        .AllowAnyMethod()
+        .AllowAnyHeader());
     });
-
-    public static void AddAplicacionServices (this IServiceCollection services)
+    public static void AddAplicacionServices(this IServiceCollection services)
     {
-        services.AddScoped <IPasswordHasher<User>, PasswordHasher<User>>();
-        services.AddScoped<IUserService, UserService>();
-        services.AddScoped<IUnitOfWork, UnitOfWork>(); //fix this shit
-        services.AddScoped<IAuthorizationHandler, GlobalVerbRoleHandler> ();
-    }
+        //Services.AddScoped<IpaisInterface,PaisRepository>();
+        //Services.AddScoped<ITipoPersona,TipoPeronsaRepository>();
 
+        services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>(); 
+        services.AddScoped<IUserService, UserService>();
+        services.AddScoped<IUnitOfWork, UnitOfWork>();
+        services.AddScoped<IAuthorizationHandler, GlobalVerbRoleHandler>();
+
+    }
     public static void AddJwt(this IServiceCollection services, IConfiguration configuration)
     {
-        //Configuration from AppSettings
-        services.Configure<JWT>(configuration.GetSection("JWT"));
-
-        //Adding Authentication - JWT
-        services.AddAuthentication(Options=>
+        services.Configure<JWT>(configuration.GetSection("jwt"));
+        services.AddAuthentication(options =>
         {
-            Options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-            Options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+            options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
         })
-            .AddJwtBearer(o => 
+            .AddJwtBearer(O => 
             {
-                o.RequireHttpsMetadata = false;
-                o.SaveToken = false;
-                o.TokenValidationParameters = new TokenValidationParameters
+                O.RequireHttpsMetadata = false;
+                O.SaveToken = true;
+                O.TokenValidationParameters = new TokenValidationParameters
                 {
                     ValidateIssuerSigningKey = true,
                     ValidateIssuer = true,
                     ValidateAudience = true,
                     ValidateLifetime = true,
                     ClockSkew = TimeSpan.Zero,
-                    ValidIssuer = configuration["JWT:Issuer"],
-                    ValidAudience = configuration["JWT:Audience"],
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JWT:Key"]))
+                    ValidIssuer = configuration["JWT:issuer"],
+                    ValidAudience = configuration["JWT:audience"],
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JWT:key"])),
                 };
             });
     }

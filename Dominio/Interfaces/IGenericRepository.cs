@@ -9,7 +9,7 @@ namespace Dominio.Interfaces
 {
     public interface IGenericRepository<T> where T : BaseEntity
     {
-        Task<T> GetByIdAsync(string Id);
+        Task<T> GetByIdAsync(int Id);
         Task<IEnumerable<T>> GetAllAsync();
         IEnumerable<T> Find(Expression<Func<T,bool>> expression);
         void Add (T entity);

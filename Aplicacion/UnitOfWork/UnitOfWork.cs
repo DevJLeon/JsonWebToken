@@ -15,11 +15,9 @@ public class UnitOfWork : IUnitOfWork, IDisposable
     private UserRepository users;
     private RolRepository rols;
 
-    public UnitOfWork(ApiWebTokenContext _context, UserRepository _users, RolRepository _rols)
+    public UnitOfWork(ApiWebTokenContext _context)
     {
         context = _context;
-        users = _users;
-        rols = _rols;
 
     }
     public IUser Users
