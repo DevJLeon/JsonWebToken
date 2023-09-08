@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Aplicacion.UnitOfWork
+namespace Aplicacion.UnitOfWork;
+
+public class UnitOfWork
 {
-    public class UnitOfWork
-    {
-        
-    }
+    
 }
