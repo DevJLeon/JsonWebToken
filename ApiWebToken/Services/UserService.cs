@@ -7,6 +7,8 @@ using Microsoft.Extensions.Options;
 using Microsoft.AspNetCore.Identity;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace ApiWebToken.Services;
 
@@ -137,16 +139,40 @@ public class UserService : IUserService
 
     private JwtSecurityToken CreateJwtToken(User usuario)
     {
-        if(usuario = null)
+        if (usuario == null)
         {
-            throw new ArgumentNullException(nameof(usuario), "El usuario no puede ser nulo");
+            throw new ArgumentNullException(nameof(usuario), "El usuario no puede ser nulo.");
         }
+
         var roles = usuario.Rols;
         var roleClaims = new List<Claim>();
-
-        foreach (var role in roles) 
+        foreach (var role in roles)
         {
-            
+            roleClaims.Add(new Claim("roles", role.Nombre));
         }
+        var Claims = new[]
+        {
+            new Claim(JwtRegisteredClaimNames.Sub, usuario.UserName),
+            new Claim(JwtRegisteredClaimNames.Jti,Guid.NewGuid().ToString()),
+            new Claim("uid", usuario.Id.ToString())
+        }
+        .Union(roleClaims);
+        if (string.IsNullOrEmpty(_jwt.Key)||string.IsNullOrEmpty(_jwt.Issuer)||string.IsNullOrEmpty(_jwt.Audience))
+        {
+            throw new ArgumentException("La configuracion del JWT es nula o vacia.");
+        }
+
+        var symmetricSecurityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwt.Key));
+
+        var signingCredentials = new SigningCredentials(symmetricSecurityKey, SecurityAlgorithms.HmacSha256Signature);
+
+        var JwtSecurityToken = new JwtSecurityToken(
+        issuer: _jwt.Issuer,
+                audience: _jwt.Audience,
+                claims: Claims,
+                expires: DateTime.UtcNow.AddMinutes(_jwt.DurationInMinutes),
+                signingCredentials: signingCredentials);
+
+        return JwtSecurityToken;
     }
 }
