@@ -5,6 +5,7 @@ using Aplicacion.UnitOfWork;
 using Dominio.Entities;
 using Dominio.Interfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 
@@ -26,6 +27,7 @@ public static class ApplicationServiceExtension
         services.AddScoped <IPasswordHasher<User>, PasswordHasher<User>>();
         services.AddScoped<IUserService, UserService>();
         services.AddScoped<IUnitOfWork, UnitOfWork>(); //fix this shit
+        services.AddScoped<IAuthorizationHandler, GlobalVerbRoleHandler> ();
     }
 
     public static void AddJwt(this IServiceCollection services, IConfiguration configuration)
