@@ -128,8 +128,8 @@
               "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Dominio\\Dominio.csproj": {
                 "projectPath": "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Dominio\\Dominio.csproj"
               },
-              "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Persistencia\\Persistencia.csproj"
+              "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -226,14 +226,14 @@
         }
       }
     },
-    "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Persistencia\\Persistencia.csproj": {
+    "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Persistencia\\Persistencia.csproj",
+        "projectPath": "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\T01-037\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Persistencia\\obj\\",
+        "outputPath": "c:\\Users\\T01-037\\Documents\\Joshua\\JsonWebToken\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\T01-037\\AppData\\Roaming\\NuGet\\NuGet.Config"
